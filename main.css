@@ -1,7 +1,54 @@
+nav {
+   text-transform: uppercase;
+   background-color: rgb(10, 4, 32);
+   width: 40rem;
+   margin-left: 1rem;
+   
+}
+nav ul {
+   display: flex;
+   justify-content: space-between;
+   margin: 2rem 1rem 1rem 1rem;
+   padding: 1rem;
+}
+nav li {
+   padding: 1em;
+   list-style-type: none;
+}
+
+nav li a {
+   padding: 12px;
+   text-decoration: none;
+   color: white;
+   border-radius: 5px;
+   border: 2px solid black;
+   background-color: rgb(51, 42, 86);
+}
+nav li a:hover {
+   background: black;
+}
+
 body {
-   background-color: black;
+   background-color: rgb(10, 4, 32);
 }
 
 h1 {
    color: white;
+   text-align: center;
+   margin-top: 4em;
+   scale: 200%;
+}
+
+img {
+   width: 100%;
+}
+
+/* section img{
+   border-radius: 100rem;
+   scale: 10%; }*/
+
+iframe {
+   width:100%;
+   height: 15em;
+   margin: 2em;
 }
