@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Book MOLLIPOXX</title><!-- Every page need a unique title -->
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="main.css">
+   <script src="script.js"></script> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header class="navbar" id="navbar">
+         
+         <div class="logo">
+            <img src="images/hori_logo.png" alt="DJMOLLIPOXLOGO"></div>
+            <div class="hamburger" onclick="toggleMenu()">
+               ☰
+             </div>
+       <nav class="nav-menu" id="navMenu">
+            <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="playlist.html">Playlists</a></li>
+                  <li><a href="booking.html">Booking</a></li>
+                  <li><a href="about.html">About</a></li>
+               </ul>
+      </nav>
+</header>
+<div class="wrapper">
+      <main>
+         <h2>LETS PARTY</h2>
+         <p>Bring the energy of MOLLIPOXX to your next event.
+            Whether it’s a packed club, a rooftop party, or a private event that needs a serious vibe, MOLLIPOXX delivers unforgettable sets that keep the crowd moving. For bookings, collabs, or serious inquiries — hit the contact form and let’s make it happen.
+         </p>
+
+            <form id="contactForm" class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Full Name</p>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <p>Email</p>
+            <input type="text" id="email" placeholder="Your Email" required>
+            <p>What can I do?</p>
+            <textarea name="contact-form" id="Message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+            <p id="responseMsg" class="response"></p>
+            </form>
+      </main>
+   </div>  
+</body>
+<footer>
+   <p>Created by Anthony Dillion using Visual Studio Code 2025</p>
+</footer>
+</html>

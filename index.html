@@ -3,39 +3,69 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>MOLLIPOXX</title>
+   <title>MOLLIPOXX Home</title>
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="main.css">
+   <script src="script.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
-<body> 
+   <body>
+      <header class="navbar" id="navbar">
+      <div class="logo">
+      <img src="images/hori_logo.png" alt="DJMOLLIPOXLOGO"></div>
+      
+      <div class="hamburger" onclick="toggleMenu()">
+         ☰
+       </div>
+       <nav class="nav-menu" id="navMenu">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="playlist.html">Playlists</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="about.html">About</a></li>
+         </ul> 
+      </nav>
+   </header>
+   
+         <main>
+            <div class="front">
+             <img src="images/djpad.jpg" alt="DJ board">
+               <div class="overlay">HOME  OF  MOLLIPOXX</div> 
+               <div class="overlay2">HOME  OF  MOLLIPOXX</div>
+            </div>
+         <div class="wrapper">
+            <h2>INTRODUCING</h2>
+               <p>Welcome to the official home of MOLLIPOXX — the house music maestro blending deep grooves with the soulful nostalgia of early 2000s R&B. His sets pulse with emotion, rhythm, and a fearless flair that turns every night into a memory. From underground scenes to festival lights, MOLLIPOXX delivers a sound that’s smooth, sultry, and built to make you move. </p>
+            <p>Dive in, press play, and feel the rhythm.</p>
+          </div>    
 
-  <!-- 
-  You're missing the basic structure for meaningful page layout.
-  
-  Where is the .wrapper, <header>, and <main>? You can't make a grid if you don't have containing boxes to move around. 
-  
-  Your PDF handout packet has several template page layout examples and you can take inspiration from the assignments we did during the semester. 
+            <section class="container">
+               <section class="column">
+                  <img src="images/blue.PNG" alt="Endless Summer Dance Party Cover Art">
+                  <h2>Endless Summer</h2>
+                   <p>EDM Hits for as long as the party continues! Featuring artist like David Guetta, Becky Hill, Martin Garrix and more!</p>
+                  
+               </section>
 
-  Your HTML page file name should be meaningfully related to their content. Not generic names like "link2"
-  -->
+               <section class="column">
+                  <img src="images/orange.PNG" alt="Dirty Sexy Deep House Cover Art">
+                  <h2>Dirty Sexy House</h2>
+                  <p>Dirty, Sexy, Cool Deep House with sparks of slap and tech. Featuring artists like Sonny Fodera, Wenzday, Loud Luxury and more!</p>
+                  
+               </section>
+            </section>
+            <div class="wrapper">
+                  <p>Welcome to the official home of MOLLIPOXX — the house music maestro blending deep grooves with the soulful nostalgia of early 2000s R&B. His sets pulse with emotion, rhythm, and a fearless flair that turns every night into a memory. From underground scenes to festival lights, MOLLIPOXX delivers a sound that’s smooth, sultry, and built to make you move. </p>
+               <p>Dive in, press play, and feel the rhythm.</p>
+             </div> 
+         </main>
+     
+      
+   </body>
 
-   <section> <!-- why doesn't this have a class name? -->
-   <h1>MOLLIPOXX</h1> <!-- this should be in a <header> -->
-  
-    <!-- <img src="images/face.jpg" alt="">   
-   </section> -->
-  
-<nav>
-   <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="link1.html">Playlists</a></li>
-      <li><a href="link2.html">Booking</a></li>
-      <li><a href="link3.html">About</a></li>
-   </ul>
-</nav>
-
-
-<img src="images/djpad.jpg" alt="DJ">
-
-</body>
+   <footer>
+      <p>Created by Anthony Dillion using Visual Studio Code 2025</p>
+   </footer>
 </html>
